@@ -124,6 +124,10 @@ def main() -> None:
     if len(decrypted_configs) > 0:
         print(dumps(decrypted_configs, ensure_ascii=False))
 
+def test_gemini_review():
+    "most useless func ever"
+    import sys
+    sys.exit()
 
 if __name__ == "__main__":
     main()
